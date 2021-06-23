@@ -1,0 +1,9 @@
+#Stream:
+-It is an Interface present in java.util.stream package
+-It contains many utility methods like map(), forEach(), filter(), collect() etc.
+-Streams are used to process group of values like collections, arrays etc.
+-we use stream() method on collection to create a stream for objects in that collection.
+-we use Stream.of() method to create a stream for group of values including arrays.
+- streams concept made functional programming easier as we could perform method chaining using several
+intermediate operations like map(), forEach() etc.. and terminal operations like collect().
+-streams concept helps us write efficient and concise code.

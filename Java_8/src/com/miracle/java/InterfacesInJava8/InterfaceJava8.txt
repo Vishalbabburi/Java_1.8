@@ -1,0 +1,15 @@
+#Interface until Java 1.7:
+
+-Until Java 1.7 there is no way that you can write implementation for methods in an interface.
+---------------------------------------------------------------------------------------------------------------
+
+#Interface from Java 1.8:
+
+-From Java 1.8 we can implement methods within an interface.
+-You can write implementation of a method within interface using 'default' and 'static' keywords.
+-Hence we can create a utility method within an interface without effecting its implementation classes.
+-default methods of an interface can be overridden by implementation classes
+-static method of an Interface can only be referenced using name of its interface. Not even by the child implementation class's reference
+-As static methods are now allowed in interface. We can have a main() method in interface.
+-This concept of adding implementation within interface helped in developing streams concept.
+
